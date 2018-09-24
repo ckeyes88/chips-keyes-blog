@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://epic-euler-d3fc3f.netlify.com/* http://www.chipkeyes.me/:splat 301!
