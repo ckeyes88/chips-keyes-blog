@@ -1,0 +1,168 @@
+<footer id="site-footer" class="site-footer" role="contentinfo">
+	<h1>
+    {{ with .Site.Title }}
+    <a href=""> {{ . }} </a>
+    {{ end }}
+	</h1>
+
+			{{ with .Site.Params.Slogan }}
+			<p class="site-description">{{ . | default "" | safeHTML }}</p>
+			{{ end }}
+
+		<div id="menu-footer" class="menu-container menu-footer" role="navigation">
+		<div class="menu">
+
+      <ul id="menu-footer-items" class="menu-footer-items">
+        {{ range $name, $taxonomy := .Site.Params.Navlinks }}
+        <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="/{{ $taxonomy.url | urlize }}">{{ $taxonomy.name }}</a></li>
+        {{ end }}
+</ul>
+
+</div>	</div>
+
+<ul class="social-media-icons">
+
+        {{ with .Site.Params.social.facebook }}
+				<li>
+					<a class="facebook" target="_blank"
+					   href="{{ . }}" >
+						<i class="fa fa-facebook" title="facebook"></i>
+						<span class="screen-reader-text">facebook</span>
+					</a>
+				</li>
+        {{end}}
+
+        {{ with .Site.Params.social.googleplus }}
+				<li>
+					<a class="googleplus" target="_blank"
+					   href="{{ . }}" >
+						<i class="fa fa-google-plus" title="googleplus"></i>
+						<span class="screen-reader-text">googleplus</span>
+					</a>
+				</li>
+        {{end}}
+
+
+        {{ with .Site.Params.social.twitter }}
+        <li>
+        <a href="{{ . }}"  class="twitter" target="_blank">
+            <i class="fa fa-twitter-square" title="twitter"></i>
+            <span class="screen-reader-text">twitter</span>
+        </a>
+        </li>
+        {{end}}
+
+        {{ with .Site.Params.social.instagram }}
+        <li>
+        <a href="{{ . }}"  class="twitter" target="_blank">
+            <i class="fa fa-instagram" title="instagram"></i>
+            <span class="screen-reader-text">instagram</span>
+        </a>
+        </li>
+        {{end}}
+
+        {{ with .Site.Params.social.email }}
+        <li>
+        <a href="mailto:{{ . }}"  class="email">
+            <i class="fa fa-envelope" title="email"></i>
+            <span class="screen-reader-text">email</span>
+        </a>
+        </li>
+        {{end}}
+
+        {{ with .Site.Params.social.linkedin }}
+        <li>
+        <a href="{{ . }}" class="linkedin" target="_blank">
+            <i class="fa fa-linkedin" title="linkedin"></i>
+            <span class="screen-reader-text">linkedin</span>
+        </a>
+        </li>
+        {{end}}
+
+        {{ with .Site.Params.social.stackoverflow }}
+        <li>
+        <a href="{{ . }}"  class="stackoverflow" target="_blank">
+            <i class="fa fa-stack-overflow" title="stackoverflow"></i>
+            <span class="screen-reader-text">stackoverflow</span>
+        </a>
+        </li>
+        {{end}}
+
+
+        {{ with .Site.Params.social.github }}
+        <li>
+        <a href="{{ . }}"  class="github" target="_blank">
+            <i class="fa fa-github" title="github"></i>
+            <span class="screen-reader-text">github</span>
+        </a>
+        </li>
+        {{end}}
+
+
+        {{ with .Site.Params.social.pinterest }}
+        <li>
+        <a href="{{ . }}"  class="pinterest" target="_blank">
+            <i class="fa fa-pinterest" title="pinterest"></i>
+            <span class="screen-reader-text">pinterest</span>
+        </a>
+        </li>
+        {{end}}
+
+        {{ if .Site.Params.social.rss }}
+        <li>
+        <a href="{{ .Site.RSSLink }}" data-animate-hover="pulse" class="rss" target="_blank">
+            <i class="fa fa-rss" title="rss"></i>
+            <span class="screen-reader-text">rss</span>
+        </a>
+        </li>
+        {{end}}
+
+        </ul>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+        <form action="https://chipkeyes.us19.list-manage.com/subscribe/post?u=cb4e07bed2d7a948d0d28e5fd&amp;id=0121fee722" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+            <h2>Subscribe to our mailing list</h2>
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group">
+            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+        </label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        </div>
+        <div class="mc-field-group">
+            <label for="mce-FNAME">First Name </label>
+            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+        </div>
+        <div class="mc-field-group">
+            <label for="mce-LNAME">Last Name </label>
+            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+        </div>
+        <div class="mc-field-group">
+            <input type="hidden" value="" name="LOCATION" class="" id="mce-LOCATION">
+        </div>
+            <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cb4e07bed2d7a948d0d28e5fd_0121fee722" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+        <div class="design-credit">
+		{{ range .Site.Params.copyright }}
+		<p>{{ . | markdownify }}</p>
+		{{ else }}
+		<p>
+			Nederburg Hugo Theme by <a target="_blank" href="https://appernetic.io">Appernetic</a>.
+		</p>
+		<p>
+			A port of Tracks by Compete Themes.
+		</p>
+		{{ end }}
+        
+	</div>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"cb4e07bed2d7a948d0d28e5fd","lid":"0121fee722","uniqueMethods":true}) })</script>
+</footer>

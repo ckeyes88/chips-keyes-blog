@@ -1,0 +1,113 @@
+baseurl = "https://chipkeyes.me/"
+title = "Chip Keyes"
+theme = "nederburg"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "chipkeyes-me.disqus.com"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+pygmentsUseClasses=true
+PygmentsCodeFences=true
+[params]
+  # Unmark to use post folder for images. Default is static folder.
+  #usepostimgfolder = true
+  slogan = "Random thoughts and ramblings of a code monkey"
+  description = "A simple blog discussing discussing adventures in the life of a simple developer" # meta description
+  # You need to set author to have an author bio. If you have a writer in the markdown file it will override this.
+  author = "Chip Keyes"
+  authorLink = "/about"
+  bio = [
+    "Husband, Dad, Programming Nerd"
+  ]
+  copyright = [
+    "&copy; 2018 Chip Keyes",
+  ]
+
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "ck@chipkeyes.me"
+
+  # Nav links in the side bar
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Get in touch"
+  url = "contact/"
+  weight = 3
+
+# this will also be in author bio if there is no writer.
+  [params.social]
+  facebook      = "https://www.facebook.com/cckeyes"
+  # googleplus    = "full profile url in googleplus"
+  email         = "ck@chipkeyes.me"
+  twitter       = "https://twitter.com/godlygilligan"
+  linkedin      = "https://www.linkedin.com/in/cchipkeyes/"
+  # stackoverflow = "full profile url in stackoverflow"
+  instagram     = "https://www.instagram.com/crew7keyes/"
+  github        = "https://github.com/ckeyes88/"
+  # pinterest     = "full profile url in pinterest"
+  rss           = true
+
+# Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
+  [params.writers]
+    [params.writers."Chip Keyes"]
+    link = "/about"
+    email = "ck@chipkeyes.me"
+    bio = [
+      "Husband, Dad, Programming Nerd",
+    ]
+    facebook      = "https://www.facebook.com/cckeyes"
+    # googleplus    = "full profile url in googleplus"
+    twitter       = "https://twitter.com/godlygilligan"
+    linkedin      = "https://www.linkedin.com/in/cchipkeyes/"
+    # stackoverflow = "full profile url in stackoverflow"
+    instagram     = "https://www.instagram.com/crew7keyes/"
+    github        = "https://github.com/ckeyes88/"
+    # pinterest     = "full profile url in pinterest"
+    rss           = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+
+### current categories ###
+#
+# projects
+# education
+#
+
+
+### current tags ###
+#
+# education
+# side projects
+# blog
+# programming languanges
+# work
+# devops
+# AWS
+# education
+# work
+# computer science
