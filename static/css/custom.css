@@ -79,3 +79,7 @@ p img {
   align-items: center;
   margin: 1em auto;
 }
+
+#comments {
+  padding: 2em;
+}
