@@ -165,4 +165,15 @@
         
 	</div>
     <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"cb4e07bed2d7a948d0d28e5fd","lid":"0121fee722","uniqueMethods":true}) })</script>
+    <script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+        }
+        });
+    }
+    </script>
 </footer>
