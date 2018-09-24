@@ -3,7 +3,7 @@ title = "Chip Keyes"
 theme = "nederburg"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "chipkeyes-me.disqus.com"
+disqusShortname = "chipkeyes-me"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-126353802-1"
 preserveTaxonomyNames = true
