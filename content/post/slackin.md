@@ -1,7 +1,7 @@
 +++
 title = "Slackin'"
 showonlyimage = true
-image = "post/slackin/images/hammock.jpeg"
+image = "images/hammock.jpeg"
 draft = false
 date = "2017-11-14"
 writer = "Chip Keyes"

@@ -33,7 +33,7 @@ For those of you out there that still hate Wordpress and think I’m a sellout, 
 
 In my long career of playing with Wordpress this weekend there are a few things that have blown my mind that I think anyone looking to start a blog should consider.
 
-![](images/shame.gif)
+![](/images/shame.gif)
 
 #### Fast Setup
 
@@ -45,12 +45,12 @@ When I tried again the other night I couldn’t believe that within a few minute
 
 Everything you hear in development is that a solution that’s pre-built isn’t customizable or extensible. Which is why there’s always someone building a new HTTP client library for Javascript (seriously though, stop that).
 
-![](images/mindblown.gif)
+![](/images/mindblown.gif)
 
 
 As it turns out if I google Wordpress \<insert literally anything\>, there’s a pretty good chance I’m going to find a plugin for it. Just to prove it to you I googled “Weirdest Wordpress plugins” and was not disappointed. There’s literally a site called [weirdpress](https://weirdpress.org/) devoted to finding strange and unusual uses and plugins for Wordpress.
 
-![](images/literally.gif)
+![](/images/literally.gif)
 
 Note: I’m not saying you should use any plugin without discretion…just that they exist.
 
@@ -66,7 +66,7 @@ It also lets me not think about the things I don’t want to, like complex CSS (
 
 So if everything seems so happy, I have to wonder naively why people like to hate on Wordpress. Surely there must be something I’m missing. Again, in my long career of 5 days I have a a few ideas as to why this might be the case.
 
-![](images/haters.gif)
+![](/images/haters.gif)
 
 #### The Magic Pill
 
@@ -90,7 +90,7 @@ Keep in mind Wordpress is used by almost every kind of person out there. Which m
 
 ### Big Takeaways
 
-![](images/whats-your-point.gif)
+![](/images/whats-your-point.gif)
 
 Ok so what’s the point in writing a post about a 15 year old technology that everyone already has opinions on? Well a month ago I didn’t consider Wordpress for anything based on my pre-conceived biases. Then I tried it…and was pleasantly surprised!
 
