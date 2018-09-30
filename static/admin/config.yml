@@ -18,10 +18,8 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Only Image", name: "showOnlyImage", widget: "boolean"}
       - {label: "Writer", name: "writer", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean"}
-      - {label: "Draft", name: "draft", widget: "boolean"}
-      - {label: "Categories", name: "categories", widget: "relation",collection: "Categories", searchFields: [ "name" ], valueField: "name", displayFields: ["name", "description"]}
-      - {label: "Tags", name: "tags", widget: "relation", collection: "Tags", searchFields: [ "name" ], valueField: "name", displayFields: ["name", "description"]}
+      - {label: "Categories", name: "categories", widget: "relation", collection: "categories", searchFields: [ "name" ], valueField: "name", displayFields: ["name", "description"]}
+      - {label: "Tags", name: "tags", widget: "relation", collection: "tags", searchFields: [ "name" ], valueField: "name", displayFields: ["name", "description"]}
       - {label: "Body", name: "body", widget: "markdown"}
   
   - label: 'Categories'
