@@ -2,11 +2,16 @@
 title: Blending Dev with Ops Using Cloud Computing
 draft: false
 date: '2017-06-27'
-showOnlyImage: false
 image: /images/devops.jpeg
+showOnlyImage: false
 writer: Chip Keyes
-categories: [ education ]
-tags: [ devops, AWS, education, work ]
+categories:
+  - education
+tags:
+  - devops
+  - AWS
+  - education
+  - work
 ---
 
 > “Your job as VP of IT Operations is to ensure the fast, predictable, and uninterrupted flow of planned work that delivers value to the business while minimizing the impact and disruption of unplanned work, so you can provide stable, predictable, and secure IT service.”
