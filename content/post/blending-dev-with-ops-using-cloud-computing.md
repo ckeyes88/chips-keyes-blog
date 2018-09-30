@@ -1,8 +1,8 @@
 ---
-showOnlyImage: true
+title: Blending Dev with Ops Using Cloud Computing
 draft: false
 date: '2017-06-27'
-title: Blending Dev with Ops Using Cloud Computing
+showOnlyImage: false
 image: /images/devops.jpeg
 writer: Chip Keyes
 categories: [ education ]
