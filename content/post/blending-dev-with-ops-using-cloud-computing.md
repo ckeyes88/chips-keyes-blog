@@ -1,12 +1,12 @@
 ---
 showonlyimage: true
 draft: false
-date: "2017-06-27"
-title: "Blending Dev with Ops Using Cloud Computing"
-image: "images/devops.jpeg"
-writer: "Chip Keyes"
-categories: [ "education" ]
-tags: [ "devops", "AWS", "education", "work" ]
+date: 2017-06-27
+title: Blending Dev with Ops Using Cloud Computing
+image: images/devops.jpeg
+writer: Chip Keyes
+categories: [ education ]
+tags: [ devops, AWS, education, work ]
 weight: 5
 ---
 
