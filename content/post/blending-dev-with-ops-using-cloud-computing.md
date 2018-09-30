@@ -7,7 +7,6 @@ showOnlyImage: false
 writer: Chip Keyes
 categories:
   - education
-  - foobar
 tags:
   - devops
   - AWS
