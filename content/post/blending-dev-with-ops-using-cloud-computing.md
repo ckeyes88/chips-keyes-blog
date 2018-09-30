@@ -1,16 +1,14 @@
-+++
-
-showonlyimage = true
-draft = false
-date = "2017-06-27"
-
-title = "Blending Dev with Ops Using Cloud Computing"
-image = "images/devops.jpeg"
-writer = "Chip Keyes"
-categories = [ "education" ]
-tags = [ "devops", "AWS", "education", "work" ]
-weight = 5
-+++
+---
+showonlyimage: true
+draft: false
+date: "2017-06-27"
+title: "Blending Dev with Ops Using Cloud Computing"
+image: "images/devops.jpeg"
+writer: "Chip Keyes"
+categories: [ "education" ]
+tags: [ "devops", "AWS", "education", "work" ]
+weight: 5
+---
 
 > “Your job as VP of IT Operations is to ensure the fast, predictable, and uninterrupted flow of planned work that delivers value to the business while minimizing the impact and disruption of unplanned work, so you can provide stable, predictable, and secure IT service.”
 
