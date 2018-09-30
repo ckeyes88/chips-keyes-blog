@@ -18,6 +18,6 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Only Image", name: "showOnlyImage", widget: "boolean"}
       - {label: "Writer", name: "writer", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "multiselect", options: ["Education", "Projects"]}
-      - {label: "Tags", name: "tags", widget: "multiselect", options: ["Education", "Projects"]}
+      - { label: "Categories", name: "categories", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list" }
       - {label: "Body", name: "body", widget: "markdown"}
